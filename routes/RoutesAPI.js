@@ -17,7 +17,6 @@ module.exports = function (app) {
         
         console.log("\nGET request - Returning notes data: " + JSON.stringify(data));
         
-        /
         response.json(data);
     });
 
